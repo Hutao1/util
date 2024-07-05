@@ -2,6 +2,11 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import './plugins/element.js'
+import '@/assets/css/global.scss'
+
+import axios from 'axios'
+Vue.prototype.$axios = axios
 
 Vue.config.productionTip = false
 
