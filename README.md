@@ -17,9 +17,9 @@
 
 ```js
 {  
- toolCollection : null, // 工具合集  
- freeInterface : null, // 免费接口  
- waitPatiently : null, // 耐心等待  
- introductionToTheCollection : null // 合集简介  
+ toolCollection: null, // 工具合集  
+ freeInterface: null, // 免费接口  
+ waitPatiently: null, // 耐心等待  
+ introductionToTheCollection: null // 合集简介  
 }
 ```
