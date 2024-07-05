@@ -71,9 +71,9 @@ export default {
           let str = '{'
           for (let i = 0; i < newtext.length; i++) {
             if (i < newtext.length - 1) {
-              str += '<br/>&nbsp' + newtext[i] + ' : ' + 'null, // ' + this.textarr[i]
+              str += '<br/>&nbsp' + newtext[i] + ': ' + 'null, // ' + this.textarr[i]
             } else {
-              str += '<br/>&nbsp' + newtext[i] + ' : ' + 'null // ' + this.textarr[i]
+              str += '<br/>&nbsp' + newtext[i] + ': ' + 'null // ' + this.textarr[i]
               str += '<br/>}'
             }
           }
